@@ -40,13 +40,12 @@ html,body
   width: 70%;
 }
 .card-text{
-  position: absolute;
+  width: 70% ;
   background-color: #F2F9FF;
   padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  right: 0;
-  bottom: -5px;
+  right: auto;
+  left: auto;
+  margin-left: 70px;
   box-shadow: 0 5px 6px -6px #777;
 }
 .container-home-top>img{
@@ -60,7 +59,9 @@ html,body
   margin-top: 80px; 
   /* margin-bottom: 80px; */
 }
-
+.card-text-subheading{
+  padding-bottom: 10px;
+}
 .founders-image {
   height: 250px;
 }
@@ -71,22 +72,30 @@ html,body
   /* margin-top: 40px; */
   margin-bottom: 0;
 }
+.card_linkedin{
+  height: 30px !important;
+}
 
 .akash_card{
   margin-top: 18%;
-  padding: 19%;
-  padding-bottom: 10%;
+}
+.akash_card>img{
+  padding: 25%;
+  padding-bottom: 0;
 }
 .shail_card{
   margin-top: 13%;
-  padding: 15%;
-  padding-top: 15%;
-  padding-bottom: 12%;
+}
+.shail_card>img{
+  padding: 20%;
+  padding-bottom: 0;
 }
 .bharath_card{
   margin-top: 17%;
-  padding: 16%;
-  padding-bottom: 12%;
+}
+.bharath_card>img{
+  padding: 23%;
+  padding-bottom: 0;
 }
 .arpit_card{
   margin-top: 4%; 
