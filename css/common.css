@@ -1,5 +1,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    color:#646464;
 }
 
 .index-form {
@@ -29,24 +30,33 @@ body {
 }
 
 .page-banner-top {
-    height: 600px;
-    width: 90%;
+    min-height: 600px;
+    height: auto;
+    
 }
 
 .banner-btn-home {
-    width: 299px;
-    height: 61px;
-    border-radius: 8px;
-    background: #0955FF;
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    background: #1078F0;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     margin-top: 36px;
+    box-shadow: 5px 5px rgba(16, 120, 240, 0.4); 
+    transition: ease-in 0.2s;
+    
 }
-
+.banner-btn-home:hover {
+    transition: ease-in 0.2s;
+    outline: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
 .banner-btn-home:focus {
     outline: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .margin-bottom-75 {
@@ -164,6 +174,18 @@ body {
     padding: 6px !important;
     font-size: 16px !important;
     padding-left: 20px !important;
+}
+.modal-body{
+    padding: 50px;
+}
+.input-group-addon{
+    color:black; 
+    background-color: #ffffff;
+}
+li > a , li > a:hover {
+    direction: none !important;
+    color:#646464;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {

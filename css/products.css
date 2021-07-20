@@ -1,3 +1,18 @@
+html,body
+{
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.text-header{
+    color: #0955FF !important;
+    font-weight: 700;
+    font-family: Montserrat;
+}
 .product-name-banner {
     font-family: Montserrat;
     font-style: normal;
@@ -7,10 +22,30 @@
     margin-top: 90px;
     line-height: 39px;
 }
+.data-extractor-progress{
+    min-width: 150vw;
+    min-height: 600px;
+    margin-left: -25vw;
+    padding-top: 50px;
+    background: linear-gradient(0deg, rgba(201, 226, 255, 0.63) 0.35%, rgba(228, 244, 255, 0.001) 99.63%) !important; 
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    padding-bottom: 80px !important;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    margin-bottom: 80px;
+}
+
+.progress-img{
+    margin-top: 30px;
+}
+.progress-img >img{
+    width: 150px;
+}
 
 .assessor-name-banner {
     font-family: Roboto;
-    font-style: normal;
+    font-style: 100;
     font-size: 32px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.71);
@@ -24,13 +59,47 @@
 
 .product-banner-image {
     height: 550px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .data-extractor {
-    background: #02042B;
+    background: #FFFFFF;
+    padding-bottom: 70px;
+    color: #544837 !important;
+}
+.banner-hassel{
+    padding-left: 200px;
+}
+.hassel-image{
+    margin-right: 20px;
+}
+.hassel-heading{
+    color: #1097F1;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 
+.cards-container{
+    min-width: 150vw;
+    min-height: 600px;
+    margin-left: -25vw;
+    background: linear-gradient(180deg, rgba(201, 226, 255, 0.63) 0.35%, rgba(228, 244, 255, 0.001) 99.63%);
+    padding-bottom: 100px;
+    border-top-left-radius:50%;
+    border-top-right-radius:50% ;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    margin-bottom: 80px;
+}
+
+.box{
+    background-color: #ffffff !important;
+    font-weight: 100 !important;
+}
+
+.features-heading{
+    color: #1078F0 !important;
+}
 .banner-yellow-area {
     height: 400px;
     width: 400px;
@@ -57,7 +126,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 100 !important;
     color: #000000;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -67,8 +136,8 @@
 .product-description-banner {
     font-family: Montserrat;
     font-style: normal;
-    font-size: 24px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight:  100 !important;
     font-stretch: normal;
     line-height: 123.6%;
     letter-spacing: 0.02em;
@@ -80,9 +149,10 @@
     font-style: normal;
     font-size: 36px;
     font-weight: bold;
-    color: #ffffff;
-    margin-top: 60px;
+    color: #1078F0;
+    margin-top: 0px;
     line-height: 44px;
+    margin-bottom: 80px;
 }
 
 .product-experience-heading-repeat {
@@ -224,7 +294,7 @@
 }
 
 .process-card-wrapper {
-    margin-top: 230px;
+    /* margin-top: 230px; */
     margin-bottom: 200px;
 }
 
@@ -384,6 +454,7 @@
     .my-row {
         margin-right: 0px;
         margin-left: 0px;
+        font-weight: normal !important;
     }
     .right-process-card {
         top: -50px;
