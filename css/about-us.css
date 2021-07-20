@@ -1,3 +1,14 @@
+
+html,body
+{
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
 .team-banner-image {
   width: 100%;
   margin-top: 20px;
@@ -8,13 +19,46 @@
   padding: 20px
 }
 
+.container-home-top{
+  margin-top: 30px;
+  min-height: 80vh;
+  font-size: 35px;
+  background-color: #001b5f;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  color: rgb(196, 196, 196);
+}
+.team-card{
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+.team-card>img{
+  width: 100%;
+}
+.my-auto > .col-md-4 > .team-card > img{
+  width: 70%;
+}
+.card-text{
+  position: absolute;
+  background-color: #F2F9FF;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  right: 0;
+  bottom: -5px;
+  box-shadow: 0 5px 6px -6px #777;
+}
+.container-home-top>img{
+  max-width: 80px;
+}
 .founders-heading {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Montserrat;
   font-size: 36px;
   font-weight: 600;
   color: #251a4a;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 80px; 
+  /* margin-bottom: 80px; */
 }
 
 .founders-image {
@@ -24,8 +68,31 @@
 .founder-name {
   font-size: 22px;
   font-weight: bold;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-bottom: 0;
+}
+
+.akash_card{
+  margin-top: 18%;
+  padding: 19%;
+  padding-bottom: 10%;
+}
+.shail_card{
+  margin-top: 13%;
+  padding: 15%;
+  padding-top: 15%;
+  padding-bottom: 12%;
+}
+.bharath_card{
+  margin-top: 17%;
+  padding: 16%;
+  padding-bottom: 12%;
+}
+.arpit_card{
+  margin-top: 4%; 
+}
+.saif_card{
+  margin-top: 9%; 
 }
 
 .founder-designation {
@@ -72,12 +139,28 @@
 }
 
 .about-us-heading {
-  font-family: 'IBM Plex Mono', monospace;
+  color: #1078F0 !important;
+  font-family: Montserrat;
   font-size: 36px;
   font-weight: bold;
-  color: #000000;
   margin-top: 70px;
 }
+.about-us-text-con{
+  min-width: 150vw;
+  min-height: 600px;
+  padding-top: 50px;
+  margin-left: -25vw;
+  background: linear-gradient(0deg, rgba(201, 226, 255, 0.63) 0.35%, rgba(228, 244, 255, 0.001) 99.63%);
+  padding-bottom: 100px;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50% ;
+}
+.about-us-text-con>p{
+  padding-left: 40vw;
+  padding-right: 40vw;
+}
+
+
 
 @media (max-width: 768px) {
   .about-us-heading {

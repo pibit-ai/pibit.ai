@@ -3,11 +3,13 @@ footer {
 }
 
 .footer-wrapper {
-    background: #F4F7FE;
+    background: #ffffff;
 }
 
 .footer-top {
-    border-bottom: 2px solid #000000;
+    line-height: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 80px;
 }
 
 .heading-top-footer {
@@ -19,12 +21,63 @@ footer {
     line-height: 1.41;
     letter-spacing: 0.025em;
     color: #02042B;
-    margin-top: 140px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    
+}
+.foother-container{
+    width: 100vw !important;
+    background-color: #E4F4FF;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    min-height: 400px;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.footer-cols{
+    padding: 30px;
+}
+.footer-heading{
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 22px;
+    
+}
+.footer-heading>span{
+    border-bottom: 2px solid #0955FF;
+    padding: 0 !important;
+}
+.copy-rights{
+    width: 100vw !important; 
+    padding: 20px;
+    background-color: #E4F4FF;
+}
+.copy-rights-row > hr{
+    border: none;
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    background-color: #7AB8FF;
+}
+
+.footer-heading>img{
+    max-width: 100px;
+}
+.footer-info>ul{
+    padding: 0;
+    list-style-type: none;
+}
+.footer-info>ul>li{
+    padding-bottom: 13px;
 }
 
 .footer-btn-wrapper {
     margin-bottom: 150px;
+}
+.linkedin{
+    padding-top: 30px;
+    max-width: 30px;
 }
 
 .footer-schedule-btn {
