@@ -1,480 +1,511 @@
-html,body
-{
-    width: 100%;
-    min-height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: #FFFFFF;
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  overflow-x: hidden;
 }
 
-.text-header{
-    color: #0955FF !important;
-    font-weight: 700;
-    font-family: Montserrat;
+.text-header {
+  color: #0955ff !important;
+  font-weight: 700;
+  font-family: Montserrat;
 }
 .product-name-banner {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 32px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.71);
-    margin-top: 90px;
-    line-height: 39px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.71);
+  margin-top: 90px;
+  line-height: 39px;
 }
-.data-extractor-progress{
-    min-width: 150vw;
-    min-height: 600px;
-    margin-left: -25vw;
-    padding-top: 50px;
-    background: linear-gradient(0deg, rgba(201, 226, 255, 0.63) 0.35%, rgba(228, 244, 255, 0.001) 99.63%) !important; 
-    border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%;
-    padding-bottom: 80px !important;
-    padding-left: 40vw;
-    padding-right: 40vw;
-    margin-bottom: 80px;
+.data-extractor-progress {
+  min-width: 150vw;
+  min-height: 600px;
+  margin-left: -25vw;
+  padding-top: 50px;
+  background: linear-gradient(
+    0deg,
+    rgba(201, 226, 255, 0.63) 0.35%,
+    rgba(228, 244, 255, 0.001) 99.63%
+  ) !important;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-bottom: 80px !important;
+  padding-left: 40vw;
+  padding-right: 40vw;
+  margin-bottom: 80px;
 }
 
-.progress-img{
-    margin-top: 30px;
+.progress-img {
+  margin-top: 30px;
 }
-.progress-img >img{
-    width: 150px;
+.progress-img > img {
+  width: 150px;
 }
 
 .assessor-name-banner {
-    font-family: Roboto;
-    font-style: 100;
-    font-size: 32px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.71);
-    margin-top: 90px;
-    line-height: 37px;
+  font-family: Roboto;
+  font-style: 100;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.71);
+  margin-top: 90px;
+  line-height: 37px;
 }
 
 .align-products {
-    padding: 0px 10px 50px 250px;
+  padding: 0px 10px 50px 250px;
 }
 
 .product-banner-image {
-    height: 550px;
-    margin-top: 20px;
+  height: 550px;
+  margin-top: 20px;
 }
 
 .data-extractor {
-    background: #FFFFFF;
-    padding-bottom: 70px;
-    color: #544837 !important;
+  background: #ffffff;
+  /* padding-bottom: 70px; */
+  color: #544837 !important;
 }
-.banner-hassel{
-    padding-left: 200px;
+.banner-hassel {
+  padding-left: 200px;
 }
-.hassel-image{
-    margin-right: 20px;
+.hassel-image {
+  margin-right: 20px;
 }
-.hassel-heading{
-    color: #1097F1;
-    font-size: 18px;
-    padding-bottom: 10px;
-}
-
-.cards-container{
-    min-width: 150vw;
-    min-height: 600px;
-    margin-left: -25vw;
-    background: linear-gradient(180deg, rgba(201, 226, 255, 0.63) 0.35%, rgba(228, 244, 255, 0.001) 99.63%);
-    padding-bottom: 100px;
-    border-top-left-radius:50%;
-    border-top-right-radius:50% ;
-    padding-left: 40vw;
-    padding-right: 40vw;
-    margin-bottom: 80px;
+.hassel-heading {
+  color: #1097f1;
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 
-.box{
-    background-color: #ffffff !important;
-    font-weight: 100 !important;
+.cards-container {
+  min-width: 150vw;
+  min-height: 600px;
+  margin-left: -25vw;
+  background: linear-gradient(
+    180deg,
+    rgba(201, 226, 255, 0.63) 0.35%,
+    rgba(228, 244, 255, 0.001) 99.63%
+  );
+  padding-bottom: 100px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding-left: 40vw;
+  padding-right: 40vw;
+  margin-bottom: 80px;
 }
 
-.features-heading{
-    color: #1078F0 !important;
-}
-.banner-yellow-area {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background-color: #fffce5;
-    position: absolute;
-    z-index: -1;
-    left: -40px;
-    bottom: 50px;
-}
-
-.banner-blue-area {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    background-color: #f4f2fd;
-    position: absolute;
-    z-index: -1;
-    right: -40px;
-    bottom: -160px;
-}
-
-.product-extract {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 36px;
-    font-weight: 100 !important;
-    color: #000000;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    line-height: 44px;
-}
-
-.product-description-banner {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 20px;
-    font-weight:  100 !important;
-    font-stretch: normal;
-    line-height: 123.6%;
-    letter-spacing: 0.02em;
-    color: #251a4a;
-}
-
-.product-experience-heading {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 36px;
-    font-weight: bold;
-    color: #1078F0;
-    margin-top: 0px;
-    line-height: 44px;
-    margin-bottom: 80px;
-}
-
-.product-experience-heading-repeat {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 42px;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 130px;
-    line-height: 51px;
-}
-
-.product-detail-wrapper {
-    margin-top: 100px;
-    padding: 15px;
-}
-
-.assessor-detail-wrapper {
-    margin-top: 100px;
-    padding: 15px;
-    height: 200px;
-}
-
-.product-feature-wrapper {
-    padding: 15px;
-}
-
-.benefits-image {
-    float: left;
-    height: 110px;
-    margin-right: 30px;
-}
-
-.fast-processing-icon {
-    height: 80px !important;
-    margin-bottom: 30px;
-}
-
-.benefits-heading {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-left: 140px;
-    line-height: 24px;
-}
-
-.benefits-details {
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: normal;
-    color: #ffffff;
-    margin-left: 140px;
-    width: 60%;
-    line-height: 22px;
-}
-
-.benefits-details-long {
-    font-size: 15px;
-    color: #000000;
-    margin-left: 140px;
-    width: 60%;
-}
-
-.light-yellow-box {
-    height: 205px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
-    background: #F4F7FE;
-    padding: 40px 32px;
-}
-
-.light-yellow-box-long {
-    height: 205px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
-    background: #F4F7FE;
-    padding: 20px 32px;
-}
-
-.light-pink-box {
-    height: 205px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
-    background: #F4F7FE;
-    padding: 40px 32px;
+.box {
+  background-color: #ffffff !important;
+  font-weight: 100 !important;
 }
 
 .features-heading {
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: bold;
-    color: #251A4A;
-    line-height: 27px;
-    ;
+  color: #1078f0 !important;
+}
+.banner-yellow-area {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #fffce5;
+  position: absolute;
+  z-index: -1;
+  left: -40px;
+  bottom: 50px;
+}
+
+.banner-blue-area {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: #f4f2fd;
+  position: absolute;
+  z-index: -1;
+  right: -40px;
+  bottom: -160px;
+}
+
+.product-extract {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 100 !important;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 44px;
+}
+
+.product-description-banner {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 100 !important;
+  font-stretch: normal;
+  line-height: 123.6%;
+  letter-spacing: 0.02em;
+  color: #251a4a;
+}
+
+.product-experience-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1078f0;
+  margin-top: 0px;
+  line-height: 44px;
+  margin-bottom: 80px;
+}
+
+.product-experience-heading-repeat {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 42px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 130px;
+  line-height: 51px;
+}
+
+.product-detail-wrapper {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.assessor-detail-wrapper {
+  margin-top: 100px;
+  padding: 15px;
+  height: 200px;
+}
+
+.product-feature-wrapper {
+  padding: 15px;
+}
+
+.benefits-image {
+  float: left;
+  height: 110px;
+  margin-right: 30px;
+}
+
+.fast-processing-icon {
+  height: 80px !important;
+  margin-bottom: 30px;
+}
+
+.benefits-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 140px;
+  line-height: 24px;
+}
+
+.benefits-details {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-left: 140px;
+  width: 60%;
+  line-height: 22px;
+}
+
+.benefits-details-long {
+  font-size: 15px;
+  color: #000000;
+  margin-left: 140px;
+  width: 60%;
+}
+
+.light-yellow-box {
+  height: 205px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+  background: #f4f7fe;
+  padding: 40px 32px;
+}
+
+.light-yellow-box-long {
+  height: 205px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+  background: #f4f7fe;
+  padding: 20px 32px;
+}
+
+.light-pink-box {
+  height: 205px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+  background: #f4f7fe;
+  padding: 40px 32px;
+}
+
+.features-heading {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  color: #251a4a;
+  line-height: 27px;
 }
 
 .features-details {
-    font-size: 16px;
-    color: #000000;
-    line-height: 20px;
-    font-style: normal;
-    font-family: Montserrat;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  font-style: normal;
+  font-family: Montserrat;
 }
 
 .second-section-heading {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .process-map-initial-card {
-    font-size: 22px;
-    font-weight: bold;
-    color: #000000;
-    height: 80px;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
-    background-color: #ffffff;
-    padding: 25px 20px;
-    float: left;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  height: 80px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 25px 20px;
+  float: left;
 }
 
 .process-map-end-card {
-    font-size: 22px;
-    font-weight: bold;
-    color: #000000;
-    height: 80px;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
-    background-color: #ffffff;
-    padding: 25px 20px;
-    float: right;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  height: 80px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 25px 20px;
+  float: right;
 }
 
 .process-map-card {
-    font-size: 22px;
-    font-weight: bold;
-    color: #000000;
-    height: 80px;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
-    background-color: #ffffff;
-    padding: 25px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  height: 80px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 25px 20px;
 }
 
 .process-card-wrapper {
-    /* margin-top: 230px; */
-    margin-bottom: 200px;
+  /* margin-top: 230px; */
+  margin-bottom: 200px;
 }
 
 .process-bar {
-    height: 11px;
-    background-color: #ffffff;
+  height: 11px;
+  background-color: #ffffff;
 }
 
 .left-process-card {
-    position: absolute;
-    left: 0;
-    bottom: -130px;
-    transform: translateX(-33%);
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  left: 0;
+  bottom: -130px;
+  transform: translateX(-33%);
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
 }
 
 .right-process-card {
-    position: absolute;
-    right: 0;
-    bottom: -130px;
-    transform: translateX(26%);
+  position: absolute;
+  right: 0;
+  bottom: -130px;
+  transform: translateX(26%);
 }
 
 .mid-process-card {
-    position: absolute;
-    bottom: -130px;
-    transform: translateX(-44%);
+  position: absolute;
+  bottom: -130px;
+  transform: translateX(-44%);
 }
 
 .process-circle {
-    font-size: 36px;
-    color: #ffffff;
-    background: #0955FF;
-    padding: 15px 30px;
-    border-radius: 50%;
-    position: absolute;
-    top: -37px;
+  font-size: 36px;
+  color: #ffffff;
+  background: #0955ff;
+  padding: 15px 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -37px;
 }
 
 .mid-circle {
-    transform: translateX(-33%);
+  transform: translateX(-33%);
 }
 
 .left-circle {
-    left: 0;
+  left: 0;
 }
 
 .right-circle {
-    right: 0;
+  right: 0;
 }
 
 .benefits-image-wrapper {
-    height: 100%;
+  height: 100%;
 }
 
 .assessor-box-left {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 
 .assessor-box-right {
-    padding-left: 50px
+  padding-left: 50px;
 }
 
 .benefits-margin-image {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
-    .product-name-banner {
-        font-size: 26px;
-        margin-top: 40px;
-    }
-    .product-extract {
-        font-size: 32px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .product-description-banner {
-        font-size: 18px;
-    }
-    .product-experience-heading {
-        font-size: 26px;
-        margin-top: 40px;
-    }
-    .benefits-image {
-        height: 80px;
-        float: none;
-        margin-right: 15px;
-        margin-bottom: 10px;
-        margin-top: 40px;
-    }
-    .benefits-details {
-        font-size: 14px;
-        margin-left: 0;
-        width: 100%;
-    }
-    .assessor-detail-wrapper {
-        height: auto;
-        margin-top: 40px;
-    }
-    .benefits-heading {
-        font-size: 18px;
-        margin-left: auto;
-    }
-    .benefits-details-long {
-        font-size: 14px;
-        margin-left: 0;
-        width: 100%;
-    }
-    .second-section-heading {
-        margin-bottom: 40px;
-    }
-    .assessor-box-right {
-        padding-left: 15px;
-        margin-bottom: 20px;
-    }
-    .assessor-box-left {
-        padding-right: 15px;
-        margin-bottom: 20px;
-    }
-    .process-card-wrapper {
-        margin-top: 90px;
-        margin-bottom: 120px;
-    }
-    .process-map-card {
-        font-size: 14px;
-        height: 40px;
-        padding: 10px 10px;
-    }
-    .process-circle {
-        font-size: 10px;
-        padding: 14px 18px;
-        top: -18px;
-    }
-    .process-bar {
-        height: 5px;
-    }
-    .right-circle {
-        right: 10px;
-    }
-    .left-circle {
-        left: 10px;
-    }
-    .process-map-card {
-        font-size: 10px;
-        height: 26px;
-        padding: 5px 5px;
-    }
-    .left-process-card {
-        top: -50px;
-        transform: translateX(7%);
-    }
-    .mid-process-card {
-        bottom: -50px;
-        transform: translateX(-40%);
-    }
-    .my-row {
-        margin-right: 0px;
-        margin-left: 0px;
-        font-weight: normal !important;
-    }
-    .right-process-card {
-        top: -50px;
-        transform: translateX(-5%);
-        height: 26px;
-        padding-left: 20px;
-        bottom: -130px;
-    }
-    .mobile-precess-card-long {
-        top: -75px !important;
-    }
-    .product-detail-wrapper {
-        margin-top: 0;
-    }
-    .mobile-margin-bottom-40 {
-        margin-bottom: 20px !important;
-    }
-    .product-banner-image {
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
-    }
+  .product-name-banner {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+  .product-extract {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .product-description-banner {
+    font-size: 18px;
+  }
+  .product-experience-heading {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+  .benefits-image {
+    height: 80px;
+    float: none;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  .benefits-details {
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .assessor-detail-wrapper {
+    height: auto;
+    margin-top: 40px;
+  }
+  .benefits-heading {
+    font-size: 18px;
+    margin-left: auto;
+  }
+  .benefits-details-long {
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .second-section-heading {
+    margin-bottom: 40px;
+  }
+  .assessor-box-right {
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  .assessor-box-left {
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+  .process-card-wrapper {
+    margin-top: 90px;
+    margin-bottom: 120px;
+  }
+  .process-map-card {
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 10px;
+  }
+  .process-circle {
+    font-size: 10px;
+    padding: 14px 18px;
+    top: -18px;
+  }
+  .process-bar {
+    height: 5px;
+  }
+  .right-circle {
+    right: 10px;
+  }
+  .left-circle {
+    left: 10px;
+  }
+  .process-map-card {
+    font-size: 10px;
+    height: 26px;
+    padding: 5px 5px;
+  }
+  .left-process-card {
+    top: -50px;
+    transform: translateX(7%);
+  }
+  .mid-process-card {
+    bottom: -50px;
+    transform: translateX(-40%);
+  }
+  .my-row {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-weight: normal !important;
+  }
+  .right-process-card {
+    top: -50px;
+    transform: translateX(-5%);
+    height: 26px;
+    padding-left: 20px;
+    bottom: -130px;
+  }
+  .mobile-precess-card-long {
+    top: -75px !important;
+  }
+  .product-detail-wrapper {
+    margin-top: 0;
+  }
+  .mobile-margin-bottom-40 {
+    margin-bottom: 20px !important;
+  }
+  .product-banner-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .banner-hassel {
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    padding-left: 10vw !important;
+    padding-bottom: 100px !important;
+  }
+  .hassel-text {
+    text-align: center !important;
+  }
+  .cards-container {
+    min-width: 250vw;
+    margin-left: -75vw;
+    padding-bottom: 0px !important;
+  }
+  .product-experience-heading-repeat {
+    padding-left: 35vw;
+    padding-right: 35vw;
+  }
+  .box {
+    margin-left: 50vw;
+    margin-right: 50vw;
+    height: auto;
+  }
 }
